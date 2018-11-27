@@ -1,0 +1,116 @@
+body {
+	background: lightpink;
+
+}
+
+header {
+	background-color: #000000;
+	margin: 0px;
+	position: relative;
+	text-align-last: center;
+}
+
+nav {
+	position: relative;
+	top: 0px;
+	right: 0px;
+	margin: 0px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0px;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0px;
+}
+
+nav a {
+	font-size: 18px;
+	color: palevioletred;
+	padding: 0px;
+	text-decoration: none;
+	font-family: century gothic;
+}
+
+nav a:hover {
+	background: palevioletred;
+	color: #000000;
+}
+
+h1 {
+	font-family: century gothic;
+	font-size: 35px;
+	color: palevioletred;
+	margin: 0 auto;
+}
+
+#aboutbio {
+	background-color: #000000;
+	color: palevioletred;
+	font-family: century gothic;
+	font-size: 13px;
+	text-align: center;
+
+}
+
+#portfolio {
+	background-color: #000000;
+	color: palevioletred;
+	font-family: century gothic;
+	font-size: 13px;
+	text-align: justify
+}
+
+#contactme {
+	background-color: #000000;
+	color: palevioletred;
+	font-family: century gothic;
+	font-size: 13px;
+	text-align: center;
+
+
+}
+
+#contactme div {
+	text-align: center;
+
+}
+
+.flabel {
+	display: inline-block;
+	width: 71px;
+	text-align: left;
+
+}
+
+.submitbutton {
+	display: inline-block;
+	width: 140px;
+	text-align: right;
+}
+
+footer {
+	background-color: #000000;
+	margin: 0px;
+	position: relative;
+	font-family: century gothic;
+	color: palevioletred;
+	text-align: center;
+
+}
+
+footer a {
+	font-size: 18px;
+	color: palevioletred;
+	padding: 0px;
+	text-decoration: none;
+
+}
+
+footer a:hover {
+	color: #000000;
+
+}
