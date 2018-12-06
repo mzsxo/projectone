@@ -1,0 +1,230 @@
+/* hi guys, Marco taught me how to do this and I thought it was cool so enjoy my okayish, kinda ugly-looking code! 😊 */
+
+body {
+	background-image: linear-gradient(#DFB3E1, #E497BA, #DFB3E1);
+	position: fixed;
+	text-align: center;
+	position: relative;
+	margin: 100px 450px;
+	color: black;
+}
+
+header {
+	background-color: #DFB3E1;
+	border-bottom: 1px solid white;
+	position: fixed;
+	text-align-last: center;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	z-index: 10;
+}
+
+nav {
+	position: relative;
+	top: 0px;
+	right: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0px;
+	padding-left: 0px;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0px;
+}
+
+
+@keyframes ugly {
+	0% {
+		transform: scale(1, 1);
+	}
+
+	50% {
+		transform: scale(.93, .93);
+	}
+
+	100% {
+		transform: scale(1, 1);
+	}
+
+
+}
+
+nav a {
+	font-size: 18px;
+	color: white;
+	padding: 0px;
+	text-decoration: none;
+	font-family: arial black;
+	width: 100px;
+	height: auto;
+	background-color: transparent;
+	position: relative;
+	display: block;
+}
+
+
+
+nav a:hover {
+	color: white;
+	animation: ugly .8s linear 100;
+	transform: scale(1, 1);
+	filter: drop-shadow(1px 3px .1px #E497BA);
+}
+
+#greeting {
+	background-color: #E497BA;
+	border: 1px solid white;
+	color: white;
+	font-family: arial black;
+	font-size: 13px;
+	text-align: center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#portfolio {
+	background-color: #E497BA;
+	color: white;
+	font-family: arial black;
+	font-size: 13px;
+	text-align: center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid white;
+}
+
+#contactme {
+	background-color: #E497BA;
+	color: white;
+	font-family: arial black;
+	font-size: 13px;
+	text-align: center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid white;
+}
+
+#contactme div {
+	text-align: center;
+}
+
+.box-shadow {
+	box-shadow: 0px 3px 20px 3px rgb(0, 0, 0, .1);
+
+}
+
+footer {
+	background-color: #DFB3E1;
+	border-top: 1px solid white;
+	margin: 0px;
+	position: fixed;
+	font-family: arial black;
+	color: white;
+	text-align: center;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+footer a {
+	font-size: 18px;
+	color: white;
+	padding: 0px;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: white;
+	filter: drop-shadow(0px 3px .1px #E497BA);
+}
+
+img:hover {
+	filter: blur(2px);
+}
+
+.flabel {
+	display: inline-block;
+	width: 83px;
+	text-align: right;
+	box-shadow: ;
+
+}
+
+h1 {
+	font-family: arial black;
+	font-size: 35px;
+	color: white;
+	margin: 0 auto;
+}
+
+#contactme {
+	box-shadow: 0px 3px 28px 3px rgb(0, 0, 0, .059);
+}
+
+.welcome {
+	background-color: transparent;
+}
+
+.hello {
+	font-size: 70px;
+	text-align-last: left;
+
+}
+
+.sabrina {
+	text-align: right;
+	margin-top: 3px;
+}
+
+.submitbuttonbox {
+	display: inline-block;
+	width: 140px;
+	text-align: right;
+}
+
+.email {
+	box-shadow: 30px 30px 0px 30px red;
+}
+
+.submit {
+	background-color: #DFB3E1;
+	border: white solid 1px;
+	color: white;
+	box-shadow: 3px 3px 11px 3px rgb(0, 0, 0, .06);
+}
+
+.scroll-box {
+	background: transparent;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	overflow-y: scroll;
+	margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+	height: 6px;
+	width: 6px;
+	background: linear-gradient(#DFB3E1, #E497BA, #DFB3E1);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: linear-gradient(#E497BA, #DFB3E1, #E497BA);
+	border: 1px solid white;
+	-webkit-border-radius: 1ex;
+	-webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.75);
+}
